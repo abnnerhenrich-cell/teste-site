@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pastas Colaborativas</title></head>
-<body><h1>Pastas Colaborativas</h1><p>Servidor ativo. Acesse via API em /api/folders.</p></body></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pastas Colaborativas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📁 Pastas Colaborativas</h1>
+
+  <div class="create-folder">
+    <input type="text" id="folderName" placeholder="Nome da nova pasta">
+    <button onclick="createFolder()">Criar Pasta</button>
+  </div>
+
+  <div id="folders"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

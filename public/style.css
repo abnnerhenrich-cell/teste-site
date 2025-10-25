@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.create-folder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  margin-right: 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.folder {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.folder h2 {
+  margin: 0;
+}
